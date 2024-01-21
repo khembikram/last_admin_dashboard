@@ -2110,7 +2110,7 @@ body {
   margin: inherit;
 }
 .app-footer:not(.hide) ~ .app-body {
-  padding-bottom: 3.125rem;
+  padding-bottom: 7.125rem;
 }
 
 .app-fixed {
@@ -2125,6 +2125,10 @@ body {
 }
 .app-fixed .app-footer {
   margin-left: 0;
+}
+
+.app-footer {
+  margin-bottom: 10px;
 }
 
 @media (min-width: 992px) {
@@ -7405,4 +7409,48 @@ fieldset[disabled] .md-switch input + i:after {
   width: 30%;
   padding: 30px;
   border-radius: 12px;
+}
+
+
+.footer_insider{
+  width: 97%;
+  margin: 0px auto;
+  display: flex;
+  /* height: 300px; */
+}
+
+.footer_insider>.footer-right>img {
+  height: 80px;
+}
+
+.footer_left{
+  width: 100%;
+  border-bottom: 10px solid #135b93;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.footer_text{
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.footer_contact_main{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer_contact_number{
+  font-size: 20px;
+  font-weight: normal;
+  text-align: right;
+}
+
+.footer_contact_number>svg{
+  height: 20px;
+  margin-right: 10px;
 }

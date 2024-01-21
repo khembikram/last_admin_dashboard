@@ -210,7 +210,9 @@
             <!-- / navbar right -->
         </div>
     </div>
-    <div class="app-footer">
+
+
+    <!-- <div class="app-footer">
       <div class="p-2 text-xs">
         <div class="pull-right text-muted py-1">
           &copy; Copyright <strong>lastadmin</strong> <span class="hidden-xs-down">- 2024</span>
@@ -220,7 +222,30 @@
           <a class="nav-link" href="../">About</a>
         </div>
       </div>
-    </div>
+    </div> -->
+	<div class="app-footer">
+		<div class="footer_insider">
+			<div class="footer-right">
+				<img src="./assets/images/lastadmin_logo-removebg-preview.png" alt="">
+			</div>
+			<div class="footer_left">
+				<div class="footer_text">
+					Your Network, Azure, and Support Desk partner.
+				</div>
+				<div class="footer_contact">
+					<div class="footer_contact_number">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M20.25 3.75v4.5m0-4.5h-4.5m4.5 0-6 6m3 12c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 0 1 4.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 0 0-.38 1.21 12.035 12.035 0 0 0 7.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 0 1 1.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 0 1-2.25 2.25h-2.25Z" />
+						  </svg>
+						480-714-1111
+					</div>
+					<div class="footer_contact_main">
+						www.LastAdmin.com
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
     <div ui-view class="app-body" id="view">
 
 <!-- ############ PAGE START-->
@@ -342,90 +367,6 @@
   <!-- / -->
 
   <!-- theme switcher -->
-  <div id="switcher">
-    <div class="switcher box-color dark-white text-color" id="sw-theme">
-      <a href ui-toggle-class="active" target="#sw-theme" class="box-color dark-white text-color sw-btn">
-        <i class="fa fa-gear"></i>
-      </a>
-      <div class="box-header">
-        <a href="https://themeforest.net/item/flatkit-app-ui-kit/13231484?ref=flatfull" class="btn btn-xs rounded danger pull-right">BUY</a>
-        <h2>Theme Switcher</h2>
-      </div>
-      <div class="box-divider"></div>
-      <div class="box-body">
-        <p class="hidden-md-down">
-          <label class="md-check m-y-xs"  data-target="folded">
-            <input type="checkbox">
-            <i class="green"></i>
-            <span class="hidden-folded">Folded Aside</span>
-          </label>
-          <label class="md-check m-y-xs" data-target="boxed">
-            <input type="checkbox">
-            <i class="green"></i>
-            <span class="hidden-folded">Boxed Layout</span>
-          </label>
-          <label class="m-y-xs pointer" ui-fullscreen>
-            <span class="fa fa-expand fa-fw m-r-xs"></span>
-            <span>Fullscreen Mode</span>
-          </label>
-        </p>
-        <p>Colors:</p>
-        <p data-target="themeID">
-          <label class="radio radio-inline m-0 ui-check ui-check-color ui-check-md" data-value="{primary:'primary', accent:'accent', warn:'warn'}">
-            <input type="radio" name="color" value="1">
-            <i class="primary"></i>
-          </label>
-          <label class="radio radio-inline m-0 ui-check ui-check-color ui-check-md" data-value="{primary:'accent', accent:'cyan', warn:'warn'}">
-            <input type="radio" name="color" value="2">
-            <i class="accent"></i>
-          </label>
-          <label class="radio radio-inline m-0 ui-check ui-check-color ui-check-md" data-value="{primary:'warn', accent:'light-blue', warn:'warning'}">
-            <input type="radio" name="color" value="3">
-            <i class="warn"></i>
-          </label>
-          <label class="radio radio-inline m-0 ui-check ui-check-color ui-check-md" data-value="{primary:'success', accent:'teal', warn:'lime'}">
-            <input type="radio" name="color" value="4">
-            <i class="success"></i>
-          </label>
-          <label class="radio radio-inline m-0 ui-check ui-check-color ui-check-md" data-value="{primary:'info', accent:'light-blue', warn:'success'}">
-            <input type="radio" name="color" value="5">
-            <i class="info"></i>
-          </label>
-          <label class="radio radio-inline m-0 ui-check ui-check-color ui-check-md" data-value="{primary:'blue', accent:'indigo', warn:'primary'}">
-            <input type="radio" name="color" value="6">
-            <i class="blue"></i>
-          </label>
-          <label class="radio radio-inline m-0 ui-check ui-check-color ui-check-md" data-value="{primary:'warning', accent:'grey-100', warn:'success'}">
-            <input type="radio" name="color" value="7">
-            <i class="warning"></i>
-          </label>
-          <label class="radio radio-inline m-0 ui-check ui-check-color ui-check-md" data-value="{primary:'danger', accent:'grey-100', warn:'grey-300'}">
-            <input type="radio" name="color" value="8">
-            <i class="danger"></i>
-          </label>
-        </p>
-        <p>Themes:</p>
-        <div data-target="bg" class="row no-gutter text-u-c text-center _600 clearfix">
-          <label class="p-a col-sm-6 light pointer m-0">
-            <input type="radio" name="theme" value="" hidden>
-            Light
-          </label>
-          <label class="p-a col-sm-6 grey pointer m-0">
-            <input type="radio" name="theme" value="grey" hidden>
-            Grey
-          </label>
-          <label class="p-a col-sm-6 dark pointer m-0">
-            <input type="radio" name="theme" value="dark" hidden>
-            Dark
-          </label>
-          <label class="p-a col-sm-6 black pointer m-0">
-            <input type="radio" name="theme" value="black" hidden>
-            Black
-          </label>
-        </div>
-      </div>
-    </div>
-  </div>
   <!-- / -->
 
 <!-- ############ LAYOUT END-->
