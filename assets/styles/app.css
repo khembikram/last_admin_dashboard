@@ -7483,7 +7483,6 @@ fieldset[disabled] .md-switch input + i:after {
   .footer_insider{
     align-items: center;
   }
-
   .footer_left{
     flex-direction: column;
     align-items: center;
