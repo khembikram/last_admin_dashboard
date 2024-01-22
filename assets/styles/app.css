@@ -2168,7 +2168,7 @@ body {
   }
   .app-aside:not(.hide) ~ .app-content {
     margin-left: 12.5rem;
-    background-color: #ebdfd7;
+    background-color: #ffffff;
   }
   .app-aside .left {
     position: absolute;
@@ -7453,4 +7453,49 @@ fieldset[disabled] .md-switch input + i:after {
 .footer_contact_number>svg{
   height: 20px;
   margin-right: 10px;
+}
+
+.project_update_block>iframe{
+  margin-bottom: 130px !important;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .project_block_card_1 {
+      width: 50%;
+  }
+  .frist_block_card_1{
+    width: 50%;
+  }
+  .project_block_cards, .first_block_cards{
+    justify-content: center;
+  }
+  .footer_insider{
+    flex-direction: column;
+  }
+  .project_update_block>iframe{
+    width: 100% !important;
+    height: 300px !important;
+  }
+  .project_block_cards, .first_block_cards{
+    justify-content: center;
+  }
+  .footer_insider{
+    align-items: center;
+  }
+
+  .footer_left{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .project_block_card_1 {
+      width: 100%;
+  }
+  .frist_block_card_1{
+    width: 100%;
+  }
+
 }
