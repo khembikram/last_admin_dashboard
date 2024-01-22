@@ -7337,9 +7337,9 @@ fieldset[disabled] .md-switch input + i:after {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  background-color: #f2eae5;
-  width: 33%;
-  padding: 30px;
+  /* background-color: #f2eae5; */
+  /* width: 33%; */
+  /* padding: 30px; */
   border-radius: 12px;
 }
 
@@ -7373,13 +7373,8 @@ fieldset[disabled] .md-switch input + i:after {
   justify-content: center;
 }
 
-.first_block_header1 {
-  font-size: 18px;
-}
-
 .first_block_new_users {
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin: 10px 0px;
 }
 .project_block_header {
   font-size: 30px;
@@ -7389,6 +7384,18 @@ fieldset[disabled] .md-switch input + i:after {
   margin: 20px 0px;
 }
 
+.first_block_header1,.first_block_new_users, .first_block_netwrok>svg {
+  height: 20px;
+}
+
+#allproject_change{
+  margin-left: 15px ;
+}
+
+.first_block_header1, .first_block_new_users, .first_block_netwrok{
+  display: flex;
+  gap: 10px;
+}
 .project_block_cards,
 .first_block_cards {
   display: flex;
