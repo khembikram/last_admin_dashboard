@@ -7378,6 +7378,9 @@ fieldset[disabled] .md-switch input + i:after {
 }
 .project_block_header {
   font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .first_block_header {
   font-size: 30px;
@@ -7388,10 +7391,6 @@ fieldset[disabled] .md-switch input + i:after {
   height: 20px;
 }
 
-#allproject_change{
-  margin-left: 15px ;
-}
-
 .first_block_header1, .first_block_new_users, .first_block_netwrok{
   display: flex;
   gap: 10px;
@@ -7399,6 +7398,7 @@ fieldset[disabled] .md-switch input + i:after {
 .project_block_cards,
 .first_block_cards {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px;
   margin: 10px;
@@ -7504,4 +7504,19 @@ fieldset[disabled] .md-switch input + i:after {
     width: 100%;
   }
 
+}
+
+.videos_insider{
+  width: 95%;
+  margin: 0px auto;
+}
+
+.videos-subsection{
+  display: flex;
+  gap: 20px;
+}
+
+.project_current{
+  font-size: 15px ;
+  text-align: right;
 }
