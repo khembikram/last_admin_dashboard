@@ -7521,6 +7521,14 @@ fieldset[disabled] .md-switch input + i:after {
     flex-direction: column;
     align-items: center;
   }
+
+
+  .app-footer {
+    margin-bottom: 3%;
+  }
+  #project_summary{
+    margin-bottom: 30%;
+  }
 }
 
 @media (max-width: 480px) {
