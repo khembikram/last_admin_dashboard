@@ -7498,6 +7498,20 @@ fieldset[disabled] .md-switch input + i:after {
   .project_block_card_1 {
       width: 50%;
   }
+
+  .videos-subsection{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .videos-subsection > .sub1 > iframe{
+    width: 100% !important;
+  }
+
+  .videos-subsection > .sub2 > iframe{
+    width: 100% !important;
+    margin-bottom: 40%;
+  }
   .frist_block_card_1{
     width: 50%;
   }
